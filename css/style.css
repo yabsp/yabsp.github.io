@@ -1,0 +1,74 @@
+body { 
+		padding-top: 70px; 
+		padding-left: 20px;
+}
+.custom-width	{
+		width: 30%;
+}
+
+.logo-image{
+max-width: 10%;
+height: auto;
+margin-top: -70px;
+margin-bottom: -35px;
+margin-left: -20px;
+}
+
+.link{
+	
+}
+
+/*Buttons and Dropdown*/
+.custom-button {
+	background-color:#FF8C00;
+	color: black;
+	border: none;
+	transition: background-color 0.1s ease-in-out;
+}
+
+.custom-button:hover {
+	background-color: #ff944d;
+}
+
+.dropdown-menu{
+	background-color:#FF8C00
+}
+
+.dropdown-item{
+	color: black;
+}
+
+.dropdown-item:hover{
+	background-color: #ff944d;
+	color:black;
+}
+
+.dropdown-item.active{
+	background-color: #ffe0cc
+}
+
+/*Headings and Margins*/
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-top: 0em;
+	margin-bottom: 0.7em;
+	margin-left:0.3em;
+	margin-right: 0;
+	font-weight:bold;
+	color: #FF8C00;
+}
+
+h4 {
+	font-size: 1em;
+	margin-top: 0.7em;
+	margin-bottom: 2em;
+	margin-left:0.7em;
+	margin-right: 0;
+	font-weight:bold;	
+}
+
+.margin-below-left{
+		margin-left: 10px;
+		margin-bottom: 15px;
+}
