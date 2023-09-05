@@ -28,6 +28,22 @@ document.addEventListener("DOMContentLoaded", function(){
 				
 			case "lbs":
 			
+				switch(targetUnit){
+					case "kg":
+						convertedValue = originalValue / 0.4535924;
+					break;
+					case "ct":
+						convertedValue = originalValue  ;
+					break;
+					case "st":
+						convertedValue = originalValue ;
+			
+			break;
+			
+			case "ct":
+			break;
+			
+			case "st":
 			break;
 			
 			
