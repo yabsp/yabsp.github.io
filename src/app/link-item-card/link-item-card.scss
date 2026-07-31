@@ -1,0 +1,50 @@
+// Scoped to <app-link-item-card>.
+
+// The host + <a> both stretch to full height so cards in the same grid
+// row line up to equal heights (host fills the <li>, <a> fills the host).
+:host {
+  display: block;
+  height: 100%;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  height: 100%;
+  padding: 1.1rem 1.25rem;
+
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: inherit; // don't use the global blue link colour here
+  text-decoration: none;
+
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease;
+
+  // & is the SCSS parent selector → compiles to "a:hover".
+  &:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  // Keyboard focus ring. Keep it visible — removing outlines fails AXE
+  // and breaks keyboard navigation.
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
