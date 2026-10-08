@@ -13,6 +13,13 @@ export class LinkItems {
       url: '/media-server-guide/',
       kind: 'guide'
     },
+    {
+      title: 'tmux Cheat Sheet',
+      description:
+        'Minimal reference for tmux sessions, windows, panes and copy mode.',
+      url: '/tmux-cheatsheet/',
+      kind: 'guide'
+    },
   ]);
   readonly all = this.linkItems.asReadonly();
   add(linkItem: LinkItem): void {
