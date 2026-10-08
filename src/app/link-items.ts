@@ -14,17 +14,10 @@ export class LinkItems {
       kind: 'guide'
     },
     {
-      title: 'tmux Cheat Sheet',
+      title: 'Cheat Sheets',
       description:
-        'Minimal reference for tmux sessions, windows, panes and copy mode.',
-      url: '/tmux-cheatsheet/',
-      kind: 'guide'
-    },
-    {
-      title: 'Vim Cheat Sheet',
-      description:
-        'Minimal reference for editing in Vim: visual mode, search, replace, copy and paste.',
-      url: '/vim-cheatsheet/',
+        'Minimal references for terminal tools like tmux and Vim.',
+      url: '/cheatsheets/',
       kind: 'guide'
     },
   ]);
