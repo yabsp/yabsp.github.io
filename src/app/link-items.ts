@@ -20,6 +20,13 @@ export class LinkItems {
       url: '/tmux-cheatsheet/',
       kind: 'guide'
     },
+    {
+      title: 'Vim Cheat Sheet',
+      description:
+        'Minimal reference for editing in Vim: visual mode, search, replace, copy and paste.',
+      url: '/vim-cheatsheet/',
+      kind: 'guide'
+    },
   ]);
   readonly all = this.linkItems.asReadonly();
   add(linkItem: LinkItem): void {
