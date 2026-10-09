@@ -16,7 +16,7 @@ export class LinkItems {
     {
       title: 'Cheat Sheets',
       description:
-        'Minimal references for Linux commands, tmux and Vim.',
+        'Minimal references for Linux commands, regex, tmux and Vim.',
       url: '/cheatsheets/',
       kind: 'guide'
     },
