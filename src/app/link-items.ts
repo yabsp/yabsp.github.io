@@ -7,9 +7,9 @@ import { LinkItem } from './link-item';
 export class LinkItems {
   private readonly linkItems = signal<LinkItem[]>([
     {
-      title: 'Media Server Guide',
+      title: 'Homelab Guide',
       description:
-        'Self-host a Debian media server with Plex, the *arr apps and a VPS gateway.',
+        'Self-host a Debian media server with Plex, the *arr apps and a VPS gateway, plus the home network around it.',
       url: '/media-server-guide/',
       kind: 'guide'
     },
